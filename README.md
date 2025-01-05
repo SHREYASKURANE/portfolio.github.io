@@ -1,243 +1,226 @@
 # Smart City Waste Management System
 
 ## About Me
-I am **Shreyas Kurane**, a 2nd-year, 3rd-semester engineering student specializing in CS-AI. This repository is dedicated to my Design and Analysis of Algorithms (DAA) project titled **Smart Waste Segregation System**, which aims to address waste management challenges in urban areas using advanced algorithms and data structures.
+I am **Shreyas Kurane**, a 2nd-year, 3rd-semester engineering student specializing in CS-AI. This repository is dedicated to my Design and Analysis of Algorithms (DAA) project titled **Smart City Waste Management System**, which aims to address waste management challenges in urban areas using advanced algorithms and data structures.
+
+---
 
 ## Project Description
 The "Smart City Waste Management System" encompasses a range of solutions for efficient waste management. Below are the modules and their details:
 
 ### 1. Smart Waste Segregation System
-CODE: Smart_waste_segeregation_system.c++
-- **Description**: Categorizes waste based on type (organic, plastic, metal, paper) and generates structured reports on collected waste volumes.
-- **Algorithm Involvement**:
-  - **Sorting**: Merge Sort or Quick Sort for efficient sorting by properties (e.g., weight, size).
-  - **Searching**: Binary Search for quick lookup of waste types.
+- **Purpose**: Categorizes waste by type (organic, plastic, metal, paper) and generates structured reports.
+- **Key Features**:
+  - **Sorting**: Implements Merge Sort or Quick Sort for waste organization.
+  - **Searching**: Binary Search for fast waste type lookup.
 - **Data Structures**:
-  - **HashMap**: Maps waste items to categories (e.g., "Plastic" -> [bottle, bag]).
+  - **HashMap**: Maps waste items to categories.
   - **Binary Search Tree (BST)**: Facilitates efficient classification.
 - **Users**:
-  - System Administrator: Manages the waste type database.
-  - User: Inputs data for categorization.
-- **Output**: Categorized waste reports, statistics, and disposal suggestions.
+  - System Administrator: Manages waste type database.
+  - User: Inputs waste details for categorization.
+- **Output**: Detailed reports with waste categorization and disposal suggestions.
 
 ### 2. Waste Disposal and Recycling Recommendation System
-CODE: Waste_disposal_and_Recycling_system.c++
-- **Description**: Recommends disposal/recycling methods based on waste type and material.
-- **Algorithm Involvement**:
-  - **Searching**: Linear Search or Hash Table Search for retrieval.
+- **Purpose**: Recommends optimal disposal and recycling methods.
+- **Key Features**:
+  - **Searching**: Linear Search and Hash Table Search for quick retrieval.
 - **Data Structures**:
   - **HashMap**: Maps disposal methods to waste types.
-  - **Linked List**: Dynamic list of recyclable items.
+  - **Linked List**: Maintains a dynamic list of recyclable items.
 - **Users**:
   - Households: Input waste details.
   - Recycling Centers: Update accepted recyclable materials.
-- **Output**: Recommendations for disposal and nearby recycling centers.
+- **Output**: Tailored disposal recommendations and nearby recycling center locations.
 
 ### 3. Waste Volume Prediction System
-CODE: Waste_volume_prediction_system.c++
-- **Description**: Predicts future waste volumes based on historical data.
-- **Algorithm Involvement**:
-  - **Sorting**: Bucket Sort for organizing historical data.
+- **Purpose**: Predicts future waste volumes using historical data.
+- **Key Features**:
+  - **Sorting**: Utilizes Bucket Sort for data organization.
 - **Data Structures**:
-  - **Array**: Stores historical data.
-  - **Trie**: Manages location-based predictive data.
+  - **Array**: Stores historical waste data.
+  - **Trie**: Manages predictive, location-based data.
 - **Users**:
   - City Planners: Allocate resources efficiently.
   - Citizens: Adjust waste disposal practices.
-- **Output**: Forecast reports of waste trends.
+- **Output**: Forecasted waste trends for planning and resource allocation.
 
 ### 4. Smart Bin Monitoring System
-CODE: Smart_Bin_monitoring_system.c++
-- **Description**: Monitors smart bins and alerts users when bins are full.
-- **Algorithm Involvement**:
-  - **Graph Traversal**: BFS or DFS for city-wide monitoring.
-  - **Sorting**: Insertion Sort for organizing bin data.
+- **Purpose**: Monitors bins and alerts when full.
+- **Key Features**:
+  - **Graph Traversal**: BFS or DFS for efficient city-wide bin monitoring.
+  - **Sorting**: Insertion Sort for bin data organization.
 - **Data Structures**:
   - **Graph**: Represents bin locations.
   - **Queue**: Manages monitoring requests.
 - **Users**:
   - City Waste Department: Schedules pickups.
-  - Households: Receives alerts.
-- **Output**: Bin alerts and collection recommendations.
+  - Households: Receive alerts.
+- **Output**: Alerts and optimized bin collection schedules.
 
 ### 5. E-Waste Management System
-CODE: E-Waste_Management_System.c++
-- **Description**: Assists in categorizing and recycling e-waste.
-- **Algorithm Involvement**:
+- **Purpose**: Categorizes and suggests recycling for e-waste.
+- **Key Features**:
   - **Hash Table with Quadratic Probing**: Resolves collisions in item lookup.
 - **Data Structures**:
-  - **Hash Table**: Maps e-waste items to disposal instructions.
+  - **Hash Table**: Maps e-waste to recycling instructions.
 - **Users**:
   - Consumers: Input e-waste details.
   - Recycling Centers: Update accepted items.
-- **Output**: Recommendations for e-waste disposal.
+- **Output**: Recommendations tailored to e-waste disposal.
 
-### Waste-to-Energy Conversion System: 
-✅
- ● Description: A module that identifies waste suitable for energy generation, such as
- incineration or biogas production, monitors energy output from waste conversion plants,
- and generates efficiency reports to optimize energy recovery.
- ● Algorithm Involvement:
- ○ Queue:Manages the sequence of waste materials entering energy conversion
- units.
- ○ HashMap:Mapswaste types to corresponding energy outputs for quick
- reference and analysis.
- ● DataStructures:
- ○ Queue:Ensures an organized flow of waste into the energy conversion process.
- ○ HashMap:Links waste categories to their energy generation methods and
- efficiency data.
- ● Users:
- ○ Waste-to-Energy Plant Operators: Manage the conversion process and
- optimize output.
- ○ EnergyDistribution Companies: Utilize the generated energy and analyze
- conversion efficiency.
- ● Output: Energy generation statistics, waste processing logs.
- The formula used is: Energy Generated (MWh) = Quantity of Waste (tons) × Energy Generation
- Factor (MWh/ton)
- The energy generation factors are approximate values based on typical waste-to-energy
- conversion rates:
- ● Plastic: 3.2 MWh/ton (highest due to petroleum-based materials
-  E-Waste: 2.5 MWh/ton (high due to metal content and complex materials)
- 4
- ● Agricultural: 1.8 MWh/ton (moderate due to organic matter)
- ● Biodegradable: 1.5 MWh/ton (lower due to moisture content)
- ● Metal: 0.8 MWh/ton (lowest due to non-combustible nature)
+### 6. Waste-to-Energy Conversion System
+- **Purpose**: Identifies waste for energy generation and provides efficiency reports.
+- **Key Features**:
+  - **Queue**: Manages the sequence of waste materials entering energy conversion units.
+  - **HashMap**: Links waste types to corresponding energy outputs.
+- **Data Structures**:
+  - **Queue**: Ensures an organized flow of waste into energy conversion processes.
+  - **HashMap**: Links waste categories to energy generation methods.
+- **Users**:
+  - Waste-to-Energy Plant Operators: Manage conversion processes.
+  - Energy Distribution Companies: Utilize generated energy.
+- **Output**: Energy generation statistics and waste processing logs.
 
-  ###7. Citizen Complaint and Feedback System 
-✅
- ● Description: A system for citizens to report and track waste management issues,
- prioritizing complaints by urgency using a Priority Queue.
- ● Algorithm Involvement:
- ○ Priority Queue: Ensures critical complaints are processed first.
- ● DataStructures:
- ○ Priority Queue: Organizes complaints by priority levels.
- ● Users:
- ○ Citizens: Submit complaints and provide feedback.
- ○ Municipal Authorities: Review and resolve complaints, and analyze feedback
- Output: Complaint status dashboard, resolution history.
+### 7. Citizen Complaint and Feedback System
+- **Purpose**: A system for citizens to report and track waste management issues.
+- **Key Features**:
+  - **Priority Queue**: Ensures critical complaints are processed first.
+- **Data Structures**:
+  - **Priority Queue**: Organizes complaints by priority levels.
+- **Users**:
+  - Citizens: Submit complaints and provide feedback.
+  - Municipal Authorities: Review and resolve complaints.
+- **Output**: Complaint status dashboard and resolution history.
 
+### 8. Real-Time Waste Tracking System
+- **Purpose**: Tracks the real-time location and movement of waste collection vehicles.
+- **Key Features**:
+  - **Route Optimization**: Dijkstra's Algorithm for shortest paths.
+  - **Searching**: Binary Search for location lookups.
+- **Data Structures**:
+  - **Graph**: Represents city nodes and roads.
+  - **Queue**: Stores real-time location updates.
+- **Users**:
+  - City Waste Departments: Monitor vehicle movements.
+  - Citizens: View collection schedules.
+- **Output**: Optimized routes and real-time collection updates.
 
- ###8. Real-Time Waste Tracking System 
-✅
- ● Description: Tracks the real-time location and movement of waste collection vehicles.
- ● Algorithms:
- ○ RouteOptimization: Dijkstra's Algorithm for shortest paths.
- ○ Searching: Binary Search for location lookups in sorted routes.
- ● DataStructures:
- ○ Graph:Represents city nodes (collection points) and edges (roads).
- ○ Queue:Stores real-time location updates for tracking.
- ● Users:
- ○ CityWaste Departments: Monitor vehicle movements.
- ○ Citizens: View collection schedules.
- ● Output: Optimized routes and real-time collection updates.
+### 9. Smart Composting System
+- **Purpose**: Monitors and automates the composting process for organic waste.
+- **Key Features**:
+  - **Sorting**: Heap Sort for prioritizing compost parameters.
+  - **Searching**: Linear Search for locating specific compost stages.
+- **Data Structures**:
+  - **Heap**: Monitors and adjusts composting parameters.
+  - **1D Array**: Stores compost condition data.
+- **Users**:
+  - Households: Manage personal composting.
+  - Waste Management Companies: Scale composting operations.
+- **Output**: Real-time compost insights and recommendations.
 
+### 10. Hazardous Waste Management System
+- **Purpose**: Tracks and safely disposes of hazardous materials.
+- **Key Features**:
+  - **Searching**: Binary Search for quickly identifying hazardous items.
+  - **Scheduling**: Priority Queue for handling high-risk waste.
+- **Data Structures**:
+  - **HashMap**: Maps hazardous items to disposal methods.
+  - **Priority Queue**: Manages disposal tasks by urgency.
+- **Users**:
+  - Industries: Ensure compliance with disposal regulations.
+  - Waste Authorities: Oversee hazardous waste management.
+- **Output**: Disposal instructions, safety protocols, and compliance records.
 
-  ###9. Smart Composting System 
-✅
- ● Description: Monitors and automates the composting process for organic waste.
- ● Algorithms:
- ○ Sorting: Heap Sort for prioritizing compost parameters (moisture, temperature).
- ○ Searching: Linear Search for locating specific compost stages.
- ● DataStructures:
- ○ Heap:Monitors and adjusts critical composting parameters.
- ○ 1DArray: Stores compost condition data (e.g., temperature over time).
- ● Users:
- ○ Households: Manage personal composting.
- ○ WasteManagement Companies: Scale composting operations.
+### 11. Carbon Footprint Estimator for Waste Management
+- **Purpose**: Calculates the carbon footprint of waste management activities.
+- **Key Features**:
+  - **Graph Algorithm**: Bellman-Ford for evaluating route efficiency.
+  - **Searching**: Depth First Search (DFS) for environmental data analysis.
+- **Data Structures**:
+  - **Graph**: Represents routes and emission factors.
+  - **HashMap**: Stores emission metrics for waste types.
+- **Users**:
+  - Municipalities: Improve eco-friendly waste practices.
+  - Environmental Researchers: Study waste-related impacts.
+- **Output**: Emission reports and route optimization suggestions.
 
- ● Output: Real-time compost insights and recommendations.
+### 12. Recycled Product Marketplace
+- **Purpose**: A marketplace for products made from recycled materials.
+- **Key Features**:
+  - **Searching**: Breadth First Search (BFS) for product discovery.
+  - **Sorting**: Bubble Sort for ranking products.
+- **Data Structures**:
+  - **HashMap**: Maps products to categories.
+  - **Priority Queue**: Ranks items by demand.
+- **Users**:
+  - Citizens: Discover and purchase eco-friendly products.
+  - Recycling Centers: List and sell recycled items.
+- **Output**: Product listings and transaction records.
 
-### 10. Hazardous Waste Management System 
-✅
- ● Description: Tracks and safely disposes of hazardous materials.
- ● Algorithms:
- ○ Searching: Binary Search for quickly identifying hazardous items.
- ○ Scheduling: Priority Queue for handling high-risk waste first.
- ● DataStructures:
- ○ HashMap:Mapshazardous items to disposal methods.
- ○ Priority Queue: Manages disposal tasks by urgency.
- ● Users:
- ○ Industries: Ensure compliance with disposal regulations.
- ○ WasteAuthorities: Oversee hazardous waste management.
- ● Output: Disposal instructions, safety protocols, and compliance records.
+### 13. Plastic Waste Tracking System
+- **Purpose**: Tracks the lifecycle of plastic waste from production to disposal.
+- **Key Features**:
+  - **Searching**: Depth First Search (DFS) for tracing waste pathways.
+  - **Sorting**: Selection Sort for arranging plastic types by difficulty.
+- **Data Structures**:
+  - **Graph**: Represents supply chains and waste pathways.
+  - **Trie**: Stores details of plastic waste for quick access.
+- **Users**:
+  - Manufacturers: Monitor waste journey.
+  - Recycling Centers: Track recycling rates.
+- **Output**: Lifecycle reports and recycling statistics.
 
+### 14. Zero-Waste Event Planner
+- **Purpose**: Helps organize eco-friendly events with minimal waste.
+- **Key Features**:
+  - **Scheduling**: Greedy Algorithm for resource allocation.
+  - **Sorting**: Insertion Sort for event waste categories.
+- **Data Structures**:
+  - **Linked List**: Stores reusable resources dynamically.
+  - **HashMap**: Maps event types to corresponding waste categories.
+- **Users**:
+  - Event Organizers: Plan eco-friendly events.
+  - Municipal Authorities: Oversee waste management.
+- **Output**: Waste forecasts and reusable material suggestions.
 
-
- ###11. Carbon Footprint Estimator for Waste Management:
- ✅
- ● Description: Calculates the carbon footprint of waste management activities.
- ● Algorithms:
- ○ GraphAlgorithm: Bellman-Ford to evaluate route efficiency for reduced
- emissions.
- ○ Searching: Depth First Search (DFS) for analyzing environmental data.
- ● DataStructures:
- ○ Graph:Represents routes and emission factors.
- ○ HashMap:Stores emission metrics for waste types.
- ● Users:
- ○ Municipalities: Improve eco-friendly waste management practices.
- ○ Environmental Researchers: Study waste-related impacts.
- ● Output: Emission reports and route optimization suggestions.
- ● Baseemission factor of 2.6 kg CO2 per km (average truck emissions)
- ● Multipliers for different waste types:
- ○ Plastic: 1.2x
- ○ Metal: 1.5x
- ○ Electronic: 1.7x
- ○ Organic: 0.8x
- 
- 
- ###12. Recycled Product Marketplace 
-✅
- ● Description: A marketplace for products made from recycled materials.
- ● Algorithms:
- ○ Searching: Breadth First Search (BFS) for product discovery in the catalog.
- ○ Sorting: Bubble Sort to rank products by popularity or price.
- ● DataStructures:
- ○ HashMap:Mapsproducts to categories.
- ○ Priority Queue: Ranks items by demand.
- ● Users:
- ○ Citizens: Discover and purchase eco-friendly products.
- ○ Recycling Centers: List and sell recycled items.
- ● Output: Product listings and transaction records.
-
-
-
- ###13. Plastic Waste Tracking System 
-✅
- ● Description: Tracks the lifecycle of plastic waste, from production to disposal.
- ● Algorithms:
- ○ Searching: DFS for tracing waste pathways in supply chains.
- ○ Sorting: Selection Sort for arranging plastic types by recycling difficulty.
- ● DataStructures:
- ○ Graph:Represents supply chains and waste pathways.
- ○ Trie: Stores details of plastic waste for quick access.
- ● Users:
- ○ Manufacturers: Monitor waste journey.
- ○ Recycling Centers: Track recycling rates.
- ● Output: Lifecycle reports and recycling statistics.
- 14. Zero-Waste Event Planner: 
-✅
- ● Description: Helps organizers plan events with minimal waste.
- ● Algorithms:
- ○ Scheduling: Greedy Algorithm for resource allocation.
- ○ Sorting: Insertion Sort for event waste categories.
- ● DataStructures:
- ○ Linked List: Stores reusable resources dynamically.
- ○ HashMap:Mapsevent types to corresponding waste categories.
- ● Users:
- ○ EventOrganizers: Plan eco-friendly events.
- ○ Municipal Authorities: Oversee waste management at events.
- ● Output: Waste forecasts and reusable material suggestions.
- 
+---
 
 ## Technologies Used
 - **Programming Languages**: C++
+- **Frameworks**: IoT-based integration platforms
+- **Data Structures & Algorithms**: Emphasis on optimization and efficiency
 
+---
+
+## Installation and Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shreyaskurane/Smart-City-Waste-Management-System.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Smart-City-Waste-Management-System
+   ```
+3. Compile and run individual modules using a C++ compiler.
+
+---
+
+## Demo
+- **Screenshots**: Add relevant images here.
+- **Video**: [Link to demo video]
+
+---
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## Contact
 - **Name**: Shreyas Kurane
-- **Email**: shreyassanjukurane@example.com
+- **Email**: shreyassanjukurane@gmail.com
 - **GitHub**: [shreyaskurane](https://github.com/shreyaskurane)
 - **LinkedIn**: [Shreyas Kurane](https://linkedin.com/in/shreyas-kurane)
 
----
 Feel free to contribute to this project by forking the repository and submitting pull requests.

@@ -206,16 +206,6 @@ The "Smart City Waste Management System" encompasses a range of solutions for ef
 
 ---
 
-## Demo
-- **Screenshots**: Add relevant images here.
-- **Video**: [Link to demo video]
-
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## Contact
 - **Name**: Shreyas Kurane

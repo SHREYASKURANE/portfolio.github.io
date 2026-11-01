@@ -25,7 +25,7 @@ A deep-learning skin-image classification application exploring 23 skin-disease 
 A computer-vision project for recognising sign-language gestures using Python, OpenCV and deep-learning/CNN techniques. **Status:** academic project work; document the final supported gesture set and measured accuracy when publishing the implementation.
 
 ### Adaptive Multimodal Sensor Fusion with Explainable AI for Human Stress Detection
-A research-oriented project exploring multimodal physiological signals from the WESAD dataset, including ECG, EDA, BVP, temperature and accelerometer data. The proposed workflow compares basic, adaptive and advanced fusion approaches, with Random Forest/LightGBM models and SHAP-based explainability, supported by a Streamlit exploration interface. **Status:** research/prototype work; validate the final implementation and metrics before claiming completed experimental results.
+A research-oriented project exploring multimodal physiological signals from the WESAD dataset, including ECG, EDA, BVP, temperature and accelerometer data. The proposed workflow compares basic, adaptive and advanced fusion approaches, with Random Forest/LightGBM models and SHAP-based explainability, supported by a Streamlit exploration interface. **Status:** research/prototype work; validate the final implementation and metrics before claiming completed experimental results. [Project documentation](https://github.com/SHREYASKURANE/Adaptive-Stress-Detection).
 
 ### AI-Driven Real-Time Multi-Modal ICU Patient Monitoring
 An academic project concept integrating patient vital signs, laboratory information and clinical context to investigate early detection of clinical deterioration, with explainability and a clinician-facing dashboard as design goals. **Status:** academic research/project development; not a clinically validated system.
@@ -34,7 +34,7 @@ An academic project concept integrating patient vital signs, laboratory informat
 A computer-vision project exploring vehicle detection (including YOLO), traffic-density estimation and adaptive signal-control logic, with OpenCV and a Python service layer. **Status:** academic mini-project/prototype work.
 
 ### Airbnb Market and Tourism Analysis
-An exploratory data-analysis and predictive-modelling project using listing features, feature engineering, clustering and regression models. The project work included comparison of multiple regressors, with CatBoost among the evaluated models. **Status:** completed analytical project work; verify dataset and metrics before publishing detailed performance claims.
+An exploratory data-analysis and predictive-modelling project using listing features, feature engineering, clustering and regression models. The project work included comparison of multiple regressors, with CatBoost among the evaluated models. **Status:** completed analytical project work; verify dataset and metrics before publishing detailed performance claims. [Project documentation](https://github.com/SHREYASKURANE/Airbnb).
 
 ## IoT and embedded-systems projects
 
@@ -51,9 +51,6 @@ A planned project to extract, standardise, reconcile and analyse transactions ac
 
 ### Research Paper Assistant
 An NLP-oriented project concept for helping users search, organise and work with research papers and technical documents. **Status:** concept/proposed project.
-
-### Sign-language, skin-image, stress-signal and ICU work
-These projects are described above individually to keep their goals, technologies and development status clear.
 
 ## Technical areas
 

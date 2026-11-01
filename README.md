@@ -1,67 +1,40 @@
-# Smart City Waste Management System
+# Project Portfolio — Shreyas Kurane
 
-## About Me
-I am **Shreyas Kurane**, a 2nd-year, 3rd-semester engineering student specializing in CS-AI. This repository is dedicated to my Design and Analysis of Algorithms (DAA) project titled **Smart City Waste Management System**, which aims to address waste management challenges in urban areas using advanced algorithms and data structures.
+Computer Science & Artificial Intelligence Engineering student. This index separates source code that is currently public from project work whose dedicated repository is not linked here.
 
----
+## Public repositories
 
-## Project Description
-The "Smart City Waste Management System" encompasses a range of solutions for efficient waste management. Below are the modules and their details:
+### ICU Patient Survival Prediction — MLflow, Streamlit & DevOps
+[ICU_MLOps_Project](https://github.com/SHREYASKURANE/ICU_MLOps_Project) — Logistic Regression training on processed ICU data, MLflow tracking, Streamlit prediction interface, saved model/scaler, Docker image build and a Windows-oriented Jenkins pipeline. Educational demonstration only; not for clinical use.
 
-### 1. Smart Waste Segregation System
+### Restaurant Table Reservation System
+[Web-Technology-Table-Reservation-System-for-hotels](https://github.com/SHREYASKURANE/Web-Technology-Table-Reservation-System-for-hotels) — Node.js/Express backend with MongoDB connectivity, authentication-related routes, reservation/table routes, waitlist and audit-log routes, and Socket.IO integration.
 
-### 2. Waste Disposal and Recycling Recommendation System
+### Smart City Waste Management System
+[portfolio.github.io](https://github.com/SHREYASKURANE/portfolio.github.io) — Academic C++ / data-structures project with modules for waste segregation, recycling, waste-volume prediction, smart-bin monitoring, e-waste, waste tracking, composting and carbon-footprint estimation. This repository also hosts the portfolio website.
 
-### 3. Waste Volume Prediction System
+## Additional academic and personal project work
 
-### 4. Smart Bin Monitoring System
+Dedicated public source links are not yet available for these projects, so they are listed as project experience rather than as public repositories.
 
-### 5. E-Waste Management System
+- **FinTrace — Financial Transaction Intelligence Platform:** privacy-focused concept for extracting, normalising and reconciling transactions from financial statement documents.
+- **AI-Driven Multi-Modal ICU Patient Monitoring:** academic project exploring patient vitals and clinical modalities for early deterioration detection.
+- **Smart Traffic Management:** computer-vision project exploring vehicle detection and traffic monitoring.
+- **Detection of Infested Maize Seeds Using Sound Processing:** embedded/signal-processing project exploring acoustic features for seed classification.
+- **Skin Disease Detection:** deep-learning image classification, including an Android application exploration.
+- **Sign Language Recognition:** computer-vision project for gesture recognition.
+- **Adaptive Stress Detection:** research work exploring physiological signals and adaptive machine-learning methods.
+- **Airbnb Market & Tourism Analysis:** exploratory analysis and predictive modelling on Airbnb listing data.
+- **Research Paper Assistant:** NLP-oriented concept for working with research documents.
+- **Electricity Monitoring and Theft Detection:** IoT concept for usage monitoring and anomaly detection.
 
-### 6. Waste-to-Energy Conversion System
+## Technical interests
 
-### 7. Citizen Complaint and Feedback System
+Python · Java · C++ · Machine Learning · Deep Learning · Data Analysis · Computer Vision · NLP · FastAPI · Streamlit · Docker · Jenkins · MLflow · AWS · PostgreSQL · MongoDB · Git
 
-### 8. Real-Time Waste Tracking System
-
-### 9. Smart Composting System
-
-### 10. Hazardous Waste Management System
-
-### 11. Carbon Footprint Estimator for Waste Management
-
-### 12. Recycled Product Marketplace
-
-### 13. Plastic Waste Tracking System
-
-### 14. Zero-Waste Event Planner
----
-
-## Technologies Used
-- **Programming Languages**: C++
-- **Frameworks**: IoT-based integration platforms
-- **Data Structures & Algorithms**: Emphasis on optimization and efficiency
-
----
-
-## Installation and Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shreyaskurane/Smart-City-Waste-Management-System.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Smart-City-Waste-Management-System
-   ```
-3. Compile and run individual modules using a C++ compiler.
-
----
-
+Technologies are listed in the context of academic and personal project exposure, not as a claim of professional mastery.
 
 ## Contact
-- **Name**: Shreyas Kurane
-- **Email**: shreyassanjukurane@gmail.com
-- **GitHub**: [shreyaskurane](https://github.com/shreyaskurane)
-- **LinkedIn**: [Shreyas Kurane](https://linkedin.com/in/shreyas-kurane)
 
-Feel free to contribute to this project by forking the repository and submitting pull requests.
+- [GitHub](https://github.com/SHREYASKURANE)
+- [LinkedIn](https://www.linkedin.com/in/shreyas-kurane-2344b52a0)
